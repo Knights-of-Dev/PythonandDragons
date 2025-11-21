@@ -16,5 +16,5 @@ def roll(number):
 
 
 def makechar(name, clas, level, race, str, dex, con, int, wis, cha, inventorylist, classlist, racelist):
-  pass
+  print("Error: This function of PythonandDragons is not working yet :9")
     
