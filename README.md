@@ -1,10 +1,17 @@
 # PythonandDragons
 ## A collection of functions for DND systems!
+### description
+PythonandDragons is a python module that manages characters and handles combat using dnd 5e rule set. This module allows custom classes, races, and backgrounds!
 
+### road map
+1. Character Creation
+2. Character manager
+3. Enemy manager
+4. Handling combat
 
 ### install
 ```
- pip install gonna go here
+ pip install PythonandDragons
 ```
 
 ### usage
