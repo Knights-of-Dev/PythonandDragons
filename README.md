@@ -47,7 +47,7 @@ Gives a random number between 1 and number
 
 #### Makechar
 ```python
-PaD.makechar(name, clas, level, race, background, str, dex, con, int, wis, cha, inventorylist, classlist, racelist)
+PaD.makechar(name, clas, level, race, str, dex, con, int, wis, cha, inventorylist, classlist, racelist)
 ```
 This creates a Player which you can acess in PaD.name.player()
 
@@ -58,8 +58,6 @@ clas: class of character
 level: level of character
 
 race: race of character
-
-background: background of character
 
 str: set strength of character; put "no" for the stat to have it generate one using core rules for 5e
 
