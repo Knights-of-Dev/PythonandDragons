@@ -37,10 +37,10 @@ class player():
     return self.name
 
 
-  def charlevel(self)
+  def charlevel(self):
     return self.level
 
-  def charclas(self)
+  def charclas(self):
     return self.clas
 
 
