@@ -82,7 +82,8 @@ racelist: a list of races that the player can choose
 #### class player
 only use this for manuel setting classes
 ```python
-playername = PaD.player()
+playername = player(name, clas, level, race, str, dex, con, int, wis, cha, inventorylist, health, hitdie, xp, proficiencylist, gold, proficiencybonus, size, ac, speed, skills, magic, pasper):
 ```
-
 the class that holds stats for the player
+
+pasper: passive perception
