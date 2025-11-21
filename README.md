@@ -13,6 +13,10 @@ PythonandDragons is a python module that manages characters and handles combat u
 ```
  pip install PythonandDragons
 ```
+or
+```
+gimme a sec
+```
 
 ### usage
 
