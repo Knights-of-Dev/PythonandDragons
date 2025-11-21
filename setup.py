@@ -1,14 +1,14 @@
 from setuptools import setup
 
 setup(
-    name='moduleName',
-    version='0.1.0',    
-    description='description here. each time you want to update your module, make sure the version above doesnt already exist!',
-    url='GitHub Repo URL here',
-    author='author. dont change the below if you dont want to get doxxed somehow. if your module uses only built-in ones, dont change install_requires please.',
+    name='PythonandDragons',
+    version='0.0.1',    
+    description='DND functions in python!',
+    url='https://github.com/Knights-of-Dev/PythonandDragons',
+    author='Pitchfork7',
     author_email='example@example.com',    
     license='MIT',
-    packages=['moduleName'],
+    packages=['PythonandDragons'],
     install_requires=[],
 
     classifiers=[
