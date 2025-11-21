@@ -5,7 +5,7 @@ long_description = (this_directory / "README.md").read_text()
 
 setup(
     name='PythonandDragons',
-    version='0.0.3',    
+    version='0.0.4',    
     description='DND functions in python!',
     url='https://github.com/Knights-of-Dev/PythonandDragons',
     author='Pitchfork7',
