@@ -20,3 +20,4 @@ import PythonandDragons as PaD
 
 Print(PaD.roll(number))
 ```
+Gives a random number between 1 and number
