@@ -1,5 +1,5 @@
 # PythonandDragons
-## A collection of functions for DND systems!
+## Made by Pitchfork7
 ### description
 PythonandDragons is a python module that manages characters and handles combat using dnd 5e rule set. This module allows custom classes, races, and backgrounds!
 
@@ -15,8 +15,20 @@ PythonandDragons is a python module that manages characters and handles combat u
 ```
 or
 ```
-gimme a sec
+python -m pip install --user PythonandDragons
 ```
+### update
+```
+pip install --upgrade PythonandDragons
+```
+or
+```
+python -m pip install --upgrade --user PythonandDragons
+```
+
+# Documentation
+## Documentation for the project :p
+
 
 ### usage
 
