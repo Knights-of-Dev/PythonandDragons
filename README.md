@@ -49,6 +49,8 @@ Gives a random number between 1 and number
 ```python
 PaD.makechar(name, clas, level, race, background, str, dex, con, int, wis, cha, inventorylist, classlist, racelist)
 ```
+This creates a Player which you can acess in PaD.name.player()
+
 name: str name of character
 
 clas: class of character
@@ -77,7 +79,7 @@ classlist: a list of classes that the player can choose
 
 racelist: a list of races that the player can choose
 
-### class player
+#### class player
 only use this for manuel setting classes
 ```python
 playername = PaD.player()
