@@ -44,8 +44,8 @@ class player():
     return self.clas
 
 
-def roll(number):
-  return random.randint(1, number)
+def roll(number, modifier):
+  return random.randint(1, number) + modifier
 
 
 def makechar(name, clas, level, race, str, dex, con, int, wis, cha, inventorylist, classlist, racelist):
