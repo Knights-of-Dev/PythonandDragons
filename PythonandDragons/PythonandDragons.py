@@ -66,6 +66,18 @@ class player():
   def charinventorylist(self):
     return self.inventorylist
 
+  def charhealth(self):
+    return self.health
+
+   def charhitdie(self):
+    return self.hitdie
+
+ def charxp(self):
+    return self.xp
+
+ def charproficiencylist(self):
+    return self.proficiencylist
+
   def chargold(self):
     return self.gold
 
