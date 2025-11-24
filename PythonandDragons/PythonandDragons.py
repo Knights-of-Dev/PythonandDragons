@@ -5,6 +5,38 @@ This is where all the functions, classes, variables, etc lie in your custom modu
 """
 import random
 
+#class item
+
+class item():
+  def __init__(self, worth):
+    self.worth = worth
+
+  def getworth():
+    return self.worth
+
+#class clas():
+  #def __init__(self, )
+
+class weapon():
+  def __init__(self, name, damagedie, type):
+    self.name = name
+    self.damagedie = damagedie
+    self.type = type
+
+  def weaname(self):
+    return self.name
+
+  def weadamagedie(self):
+    return self.damagedie
+
+  def weatype(self):
+    return self.type
+
+
+
+
+
+# class player
 class player():
   def __init__(self, name, clas, level, race, str, dex, con, int, wis, cha, inventorylist, health, hitdie, xp, proficiencylist, gold, proficiencybonus, size, ac, speed, skills, pasper):
     self.name = name
