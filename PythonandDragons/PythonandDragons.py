@@ -4,7 +4,7 @@ moduleName.py
 This is where all the functions, classes, variables, etc lie in your custom module.
 """
 import random
-
+import math
 #class item
 
 class item():
@@ -132,30 +132,17 @@ class player():
     return self.pasper
   # caluculate modifiers and shut
   def charstrb(self):
-    pass
-  
-
-
-
-
-
-
-
-
-
-
-
-
+    return math.floor(((int(self.str) - 10) / 2))
   def chardexb(self):
-    pass
+    return math.floor(((int(self.dex) - 10) / 2))
   def charconb(self):
-    pass
+    return math.floor(((int(self.con) - 10) / 2))
   def charintb(self):
-    pass
+    return math.floor(((int(self.int) - 10) / 2))
   def charwisb(self):
-    pass
+    return math.floor(((int(self.wis) - 10) / 2))
   def charchab(self):
-    pass
+    return math.floor(((int(self.cha) - 10) / 2))
 
 def roll(number, modifier):
   return random.randint(1, number) + modifier
