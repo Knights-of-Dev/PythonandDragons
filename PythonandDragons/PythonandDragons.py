@@ -26,7 +26,7 @@ class weapon():
   def weaname(self):
     return self.name
 
-  def weadamagedie(self):
+  def weadamagedie(self):ji
     return self.damagedie
 
   def weatype(self):
