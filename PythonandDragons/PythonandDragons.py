@@ -150,5 +150,20 @@ def roll(number, modifier):
 
 def makechar(name, clas, level, race, str, dex, con, int, wis, cha, inventorylist, classlist, racelist):
   makecharcheck = False
-  print("Error: This function of PythonandDragons is not working yet :9")
+    #check if clas in classlist
+    if clas in classlist:
+      #level check
+      if level > 0:
+        #race check
+        if race in racelist:
+          print("Error: This function of PythonandDragons is not working yet :9")
+        else:
+          makecharcheck = False
+          print("race not in race list")
+      else:
+        makecharcheck = False
+        print("Error: level less then 1")
+    else:
+      makecharcheck = False
+      print("Clas not in Classlist")
     
