@@ -33,6 +33,34 @@ class weapon():
   def weatype(self):
     return self.type
 
+class race():
+  def __init__(self, str, dex, con, int, wis, cha, size, speed)
+    self.str = str
+    self.dex = dex
+    self.con = con
+    self.int = int
+    self.wis = wis
+    self.cha = cha
+    self.size = size
+    self.speed = speed
+
+
+  def getstr(self):
+    return self.str
+  def getdex(self):
+    return self.dex
+  def getcon(self):
+    return self.con
+  def getint(self):
+    return self.int
+  def getwis(self):
+    return self.wis
+  def getcha(self):
+    return self.cha
+  def getsize(self):
+    return self.size
+  def getspeed(self):
+    return self.speed
 
 
 # class player
