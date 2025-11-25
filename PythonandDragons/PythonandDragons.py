@@ -14,14 +14,15 @@ class item():
   def getworth():
     return self.worth
 
-#class clas():
-  #def __init__(self, )
-
 class weapon():
-  def __init__(self, name, damagedie, type):
+  def __init__(self, worth, name, damagedie, type):
     self.name = name
     self.damagedie = damagedie
     self.type = type
+    self.worth = worth
+
+  def getworth():
+    return self.worth
 
   def weaname(self):
     return self.name
@@ -31,16 +32,6 @@ class weapon():
 
   def weatype(self):
     return self.type
-
-class race():
-  def __init__(self, str, dex, con, int, wis, cha):
-    self.str = str
-    self.dex = dex
-    self.con = dex
-    self.con = con
-    self.int = int
-    self.wis = wis
-    self.cha = cha
 
 
 
