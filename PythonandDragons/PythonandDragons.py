@@ -145,5 +145,6 @@ def roll(number, modifier):
 
 
 def makechar(name, clas, level, race, str, dex, con, int, wis, cha, inventorylist, classlist, racelist):
+  makecharcheck = False
   print("Error: This function of PythonandDragons is not working yet :9")
     
