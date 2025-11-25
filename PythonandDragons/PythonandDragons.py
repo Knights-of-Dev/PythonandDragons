@@ -32,7 +32,15 @@ class weapon():
   def weatype(self):
     return self.type
 
-
+class race():
+  def __init__(self, str, dex, con, int, wis, cha):
+    self.str = str
+    self.dex = dex
+    self.con = dex
+    self.con = con
+    self.int = int
+    self.wis = wis
+    self.cha = cha
 
 
 
