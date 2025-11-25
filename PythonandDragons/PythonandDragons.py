@@ -38,6 +38,7 @@ class weapon():
 # class player
 class player():
   def __init__(self, name, clas, level, race, str, dex, con, int, wis, cha, inventorylist, health, hitdie, xp, proficiencylist, gold, proficiencybonus, size, ac, speed, skills, pasper):
+    #self.varible = varible stuff
     self.name = name
     self.level = level
     self.clas = clas
@@ -63,7 +64,7 @@ class player():
     self.pasper = pasper
     
 
-
+#defining the functions to get each varible DIRECTLY from the class
   def charname(self):
     return self.name
 
@@ -129,7 +130,32 @@ class player():
 
   def charpasper(self):
     return self.pasper
+  # caluculate modifiers and shut
+  def charstrb(self):
+    pass
+  
 
+
+
+
+
+
+
+
+
+
+
+
+  def chardexb(self):
+    pass
+  def charconb(self):
+    pass
+  def charintb(self):
+    pass
+  def charwisb(self):
+    pass
+  def charchab(self):
+    pass
 
 def roll(number, modifier):
   return random.randint(1, number) + modifier
